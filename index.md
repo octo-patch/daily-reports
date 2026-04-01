@@ -4,26 +4,26 @@ title: Octopus Daily Reports
 ---
 
 <header class="hero">
-  <h1>octopus<span class="cursor">_</span></h1>
-  <p class="tagline">automated daily summaries from the open-source contribution bot</p>
+  <h1><span class="accent">octopus</span> reports<span class="cursor">_</span></h1>
+  <p class="tagline">open-source contribution bot &mdash; daily operations dashboard</p>
   <div class="stats">
-    <div class="stat-item">
-      <span class="stat-value">8</span>
-      <span class="stat-label">reports</span>
+    <div class="stat-card">
+      <div class="stat-label">total reports</div>
+      <div class="stat-value">8</div>
     </div>
-    <div class="stat-item">
-      <span class="stat-value">77</span>
-      <span class="stat-label">PRs merged</span>
+    <div class="stat-card">
+      <div class="stat-label">PRs merged</div>
+      <div class="stat-value green">77</div>
     </div>
-    <div class="stat-item">
-      <span class="stat-value">11.7%</span>
-      <span class="stat-label">merge rate</span>
+    <div class="stat-card">
+      <div class="stat-label">merge rate</div>
+      <div class="stat-value">11.7%</div>
     </div>
   </div>
 </header>
 
 <section id="reports">
-  <h2 class="section-label">// reports</h2>
+  <h2 class="section-label"><span class="prompt">$</span> ls reports/</h2>
 
   <div class="month-group">
     <div class="month-title">2026-03</div>
