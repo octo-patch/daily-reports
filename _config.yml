@@ -1,3 +1,15 @@
 title: Octopus Daily Reports
 description: Automated daily summaries from the Octopus open-source contribution bot
-theme: minima
+baseurl: /daily-reports
+url: https://octo-patch.github.io
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: "2026-*/**"
+    values:
+      layout: "report"
